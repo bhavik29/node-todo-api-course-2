@@ -13,7 +13,6 @@ const todos = [{
     text: "Second test todo"
 }];
 
-// var _id = '5bdf2f9fc09e13ad6ffe6462';
 
 beforeEach((done) => {
     ToDo.remove({}).then(() => {
